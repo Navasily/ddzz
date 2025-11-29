@@ -1,0 +1,21 @@
+.pop{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+	z-index:98;
+}
+.pop .popMain{ width: 400px; height: 200px; background: #fff; position: absolute; left: 50%; top: 30%; margin-left: -200px;z-index:99;}
+.popMiddle p{ text-align: center; font-size: 18px; color: red; margin-top:60px; font-weight:bold;}
+.pop .popTop{
+	 position: absolute; top: 0; left: 0;width: 100%; height: 30px;background: #488ACC;
+}
+.pop .popTop span{
+	text-align: center; font-size: 14px; color: #fff; line-height: 30px;
+}
+.pop .popBottom{ position: absolute; bottom: 0; left: 0; display: flex; width: 100%; height: 80px; text-align: center; background: #488ACC;}
+.pop .popBottom span{ flex: 1; text-align: center; font-size: 24px; color: #fff; line-height: 80px; cursor: pointer;}
+.pop .popBottom span:first-of-type{ border-right: 1px solid #fff;}
